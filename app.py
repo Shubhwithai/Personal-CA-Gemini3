@@ -52,6 +52,50 @@ with st.sidebar:
             st.warning("⚠️ Please enter a valid Gemini API key")
     else:
         st.warning("⚠️ Please enter your Gemini API key")
+
+
+     # Build Fast with AI Promotion
+    st.markdown(
+        """
+        <div style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                    padding: 20px; 
+                    border-radius: 10px; 
+                    text-align: center;
+                    margin: 10px 0;'>
+            <h3 style='color: white; margin: 0 0 10px 0;'>🚀 Want to Build AI Apps?</h3>
+            <p style='color: white; margin: 0 0 15px 0; font-size: 0.9em;'>
+                Learn to build production-ready AI applications from scratch
+            </p>
+            <a href='https://www.buildfastwithai.com/genai-course' 
+               target='_blank' 
+               style='background-color: white; 
+                      color: #764ba2; 
+                      padding: 10px 20px; 
+                      text-decoration: none; 
+                      border-radius: 5px; 
+                      font-weight: bold;
+                      display: inline-block;'>
+                Join Gen AI Crash Course →
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    st.markdown(
+        """
+        <div style='text-align: center; padding: 10px;'>
+            <p style='color: #666; font-size: 0.85em; margin: 5px 0;'>
+                By <b>Build Fast with AI</b>
+            </p>
+            <p style='color: #888; font-size: 0.75em; margin: 0;'>
+                Master GenAI • Build Real Projects • Launch Fast
+            </p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
     
     st.markdown("---")
     
